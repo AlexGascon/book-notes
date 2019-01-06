@@ -5,6 +5,9 @@ Have you ever: Invested time in something that, with hindsight, just wasn’t wo
 
 Simple, clear, and always surprising, this indispensable book will change the way you think and transform your decision-making—work, at home, every day. It reveals, in 99 short chapters, the most common errors of judgment, and how to avoid them.
 
+### Personal favorites
+- [Sunk Cost Fallacy](sunk-cost-fallacy.md)
+
 <p align="center">
   <img src="cover.png"/>
 </p>
