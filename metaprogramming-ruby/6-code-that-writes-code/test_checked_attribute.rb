@@ -7,7 +7,8 @@
 # Visit http://www.pragmaticprogrammer.com/titles/ppmetr2 for more book information.
 #---
 require 'test/unit'
-require_relative 'checked_attributes_1.rb'
+#require_relative 'checked_attributes_1.rb'
+require_relative 'checked_attributes_2.rb'
 
 class Person; end
 
