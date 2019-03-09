@@ -30,3 +30,6 @@ flush
 ```
 
 As the results were processed concurrently, they were received back but without following any particular order.
+
+## 3.5. Coordinator
+(This chapter is really interesting but the text itself is really easy to understand, there's no need of any specific notes because everything is really clear.)
