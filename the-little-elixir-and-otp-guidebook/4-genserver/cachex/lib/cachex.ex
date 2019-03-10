@@ -72,5 +72,17 @@ defmodule Cachex do
     {:reply, Map.has_key?(state, key), state}
   end
 
+  def handle_cast({:write, key, value}, state) do
+    {:noreply, Map.put(state, key, value)}
+  end
+
+  def handle_cast({:delete, key}, state) do
+    {:noreply, Map.delete(state, key)}
+  end
+
+  def handle_cast(:clear, _state) do
+    {:noreply, %{}}
+  end
+
   ## Helper functions
 end

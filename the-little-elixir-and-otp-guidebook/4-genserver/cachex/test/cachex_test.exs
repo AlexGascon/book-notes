@@ -28,13 +28,21 @@ defmodule CachexTest do
     assert Cachex.read(:non_present_key) == :error
   end
 
-  test "delete removes a key", %{server: pid}  do
+  test "delete removes an existing key", %{server: pid}  do
     Cachex.delete(:test_key)
 
     assert Cachex.read(:test_key) == :error
   end
 
   test "clear resets the entire memory", %{server: pid}  do
+    Cachex.write(:key, "value")
+    Cachex.write(:another_key, "another value")
+
+    Cachex.clear
+
+    assert Cachex.exist?(:test_key) == :false
+    assert Cachex.exist?(:key) == :false
+    assert Cachex.exist?(:another_key) == :false
   end
 
   test "exist? returns true if the key is stored", %{server: pid}  do
