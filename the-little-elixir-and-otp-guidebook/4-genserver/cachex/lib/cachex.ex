@@ -64,6 +64,13 @@ defmodule Cachex do
     {:ok, initial_state}
   end
 
+  def handle_call({:read, key}, _from, state) do
+    {:reply, Map.get(state, key, :error), state}
+  end
+
+  def handle_call({:exist, key}, _from, state) do
+    {:reply, Map.has_key?(state, key), state}
+  end
 
   ## Helper functions
 end
