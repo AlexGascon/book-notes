@@ -11,6 +11,10 @@ defmodule Metex.Worker do
     GenServer.call(pid, {:location, location})
   end
 
+  def get_stats(pid) do
+    GenServer.call(pid, :get_stats)
+  end
+
   ## Server Callbacks
 
   def init(:ok) do
@@ -28,6 +32,10 @@ defmodule Metex.Worker do
         # Format: {:reply, reply, state}
         {:reply, {:error, "Temperature not found for #{location}"}, stats}
     end
+  end
+
+  def handle_call(:get_stats, _from, stats) do
+    {:reply, stats, stats}
   end
 
   ## Helper Functions
