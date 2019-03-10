@@ -59,6 +59,13 @@ defmodule Cachex do
     GenServer.call(@name, {:exist, key})
   end
 
+  @doc """
+  Stop the server
+  """
+  def stop do
+    GenServer.cast(@name, :stop)
+  end
+
   ## Server Callbacks
   def init(initial_state) do
     {:ok, initial_state}
@@ -84,5 +91,20 @@ defmodule Cachex do
     {:noreply, %{}}
   end
 
-  ## Helper functions
+  def handle_cast(:stop, _state) do
+    {:stop, :normal, state}
+  end
+
+  def handle_info(message, state) do
+    IO.puts "Unknown message format: #{message}"
+
+    {:noreply, state}
+  end
+
+  def terminate(reason, state) do
+    IO.puts "Server stopped. Reason: #{reason}"
+    IO.puts "Ending state: #{state}"
+
+    :ok
+  end
 end
