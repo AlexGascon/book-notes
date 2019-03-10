@@ -1,26 +1,47 @@
 defmodule CachexTest do
-  use ExUnit.Case
+  use ExUnit.Case, async: true
   doctest Cachex
 
-  def setup do
-    {:ok, _pid} = Cachex.start_link
+  setup do
+    {:ok, pid} = Cachex.start_link %{test_key: "test_value"}
+
+    %{server: pid}
   end
 
-  test "write stores a key-value pair" do
+  test "write stores a key-value pair", %{server: pid} do
+    Cachex.write(:key, "value")
+
+    assert Cachex.read(:key) == "value"
   end
 
-  test "write overrides the value if the key is already present" do
+  test "write overrides the value if the key is already present", %{server: pid}  do
+    Cachex.write(:test_key, "test_overriden_value")
+
+    assert Cachex.read(:test_key) == "test_overriden_value"
   end
 
-  test "read retrieves the value of a stored key"
+  test "read retrieves the value of a stored key", %{server: pid}  do
+    assert Cachex.read(:test_key) == "test_value"
+  end
 
-  test "read retrieves nil if the key is not stored"
+  test "read returns :error if the key is not stored", %{server: pid}  do
+    assert Cachex.read(:non_present_key) == :error
+  end
 
-  test "delete removes a key"
+  test "delete removes a key", %{server: pid}  do
+    Cachex.delete(:test_key)
 
-  test "clear resets the entire memory"
+    assert Cachex.read(:test_key) == :error
+  end
 
-  test "exist? returns true if the key is stored"
+  test "clear resets the entire memory", %{server: pid}  do
+  end
 
-  test "exist? returns false if the key is not stored"
+  test "exist? returns true if the key is stored", %{server: pid}  do
+    assert Cachex.exist?(:test_key) == :true
+  end
+
+  test "exist? returns false if the key is not stored", %{server: pid}  do
+    assert Cachex.exist?(:test_false_key) == :false
+  end
 end

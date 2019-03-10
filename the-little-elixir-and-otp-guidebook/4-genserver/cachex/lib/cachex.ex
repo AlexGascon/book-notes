@@ -16,15 +16,15 @@ defmodule Cachex do
 
   ## Client API
 
-  def start_link(opts \\ []) do
-    GenServer.start_link(__MODULE__, :ok, opts ++ [name: @name])
+  def start_link(initial_state \\ %{}, opts \\ []) do
+    GenServer.start_link(__MODULE__, initial_state, opts ++ [name: @name])
   end
 
   @doc """
   Store `value` associating it to `key`
   """
   def write(key, value) do
-    GenServer.cast(:write, {key, value})
+    GenServer.cast(@name, {:write, key, value})
   end
 
   @doc """
@@ -60,6 +60,10 @@ defmodule Cachex do
   end
 
   ## Server Callbacks
+  def init(initial_state) do
+    {:ok, initial_state}
+  end
+
 
   ## Helper functions
 end
