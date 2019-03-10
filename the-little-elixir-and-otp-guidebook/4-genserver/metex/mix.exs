@@ -21,7 +21,7 @@ defmodule Metex.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:httpoison, "~> 0.9.0"},
+      {:httpoison, "~> 1.4"},
       {:json,      "~> 0.3.0"}
     ]
   end
