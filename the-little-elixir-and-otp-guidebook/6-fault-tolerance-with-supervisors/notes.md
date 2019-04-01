@@ -98,6 +98,18 @@ iex(31)> :ets.match(:tv_shows, {:"$1", "Grant Gustin", :_})
 
 # It's important to note that the result returns a list: this happens because some
 # ets types (e.g. bag) can have multiple entries for a key
-
-
 ```
+
+The goal of all this explanation was because we're going to use ETS to store monitors data. Now that we've understood them, let's continue with the project.
+
+### Back to workers
+Here there are two important terms that we'll use a lot and that we need to fully understand:
+
+- **Check-out a worker:** Obtain a worker from the pool
+- **Check-in a worker:** Return a worker back to the pool of available ones
+
+We'll start implementing the checkout operation. Here, it's **very important to retain the PID of the process checking out the worker**, because we need to know that information in case it dies and we need to take any action. It does not happen yet, but it will soon.
+
+_(Note that we have also updated the first `init` method to include the `monitors` information)_
+
+## 6.4. Implementing the top level supervisor
