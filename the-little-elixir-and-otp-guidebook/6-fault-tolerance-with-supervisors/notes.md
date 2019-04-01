@@ -24,3 +24,80 @@ We have defined a lot of init clauses, one for one each option we care about. Ho
 The last init function sends a message to start the supervisor. Messages to self are captured by `handle_info`.
 
 
+When creating the supervisor, we'll specify that the default restart behavior is `:temporary`, i.e. the server won't automatically restart the Worker's supervisor. This is because we want to implement a custom restarting behavior, and therefore we need the server to just ignore crashes on it so we can completely handle them.
+
+
+### Understanding ETSs
+ETS or Erlang Term Storage is basically a very efficient in-memory database built to store Erlang or Elixir data. It comes by default in Erlang, which means that we don't need to install any dependency.
+
+Let's learn more about them in the following examples:
+
+##### Creating an ETS table
+We'll create a table to store TV shows, their IMDb rating and their main character.
+
+```elixir
+iex> :ets.new(:tv_shows, [:set, :private, :named_table])
+#Reference<0.3238206512.2083389443.116580>
+```
+
+The second parameter are the options. Some things we can specify are:
+  - **Table types:** `:set`, `:ordered_set`, `:bag` (rows with the same keys are alllowed, but the content must be different), and `:duplicate_bag` (same as bag but without row-uniqueness).
+  - **Access rights:** Owner always has read+write permissions. This rights affect the rest of the processes. `:protected` (default, other processes can only read), `:public` (every process can read and right) and `:private` (only owner can read and write)
+  - **Named table:** Allows us to reference the ETS with its symbol name, without needing to use the reference
+
+Let's now do some operations with it:
+
+```elixir
+iex(5)> :ets.insert(:tv_shows, {"The Flash", "Grant Gustin", 7.9})  
+true
+
+iex(6)> :ets.insert(:tv_shows, {"How I Met Your Mother", "Josh Radnor", 8.3})
+true
+
+iex(7)> :ets.insert(:tv_shows, {"Supergirl", "Melissa Benoist", 6.4})        
+true
+
+iex(8)> :ets.insert(:tv_shows, {"Agents of S.H.I.E.L.D.", "Chloe Bennet", 7.5})
+true
+
+iex(9)> :ets.tab2list :tv_shows
+[
+  {"The Flash", "Grant Gustin", 7.9},
+  {"Agents of S.H.I.E.L.D.", "Chloe Bennet", 7.5},
+  {"Supergirl", "Melissa Benoist", 6.4},
+  {"How I Met Your Mother", "Josh Radnor", 8.3}
+]
+
+# Actually, it's been a while since I last watched Agents of S.H.I.E.L.D.
+iex(10)> :ets.delete(:tv_shows, "Agents of S.H.I.E.L.D.")
+true
+
+iex(11)> :ets.tab2list :tv_shows                         
+[
+  {"The Flash", "Grant Gustin", 7.9},
+  {"Supergirl", "Melissa Benoist", 6.4},
+  {"How I Met Your Mother", "Josh Radnor", 8.3}
+]
+
+# To search data, we can either use :ets.lookup to look by key
+iex(12)> :ets.lookup(:tv_shows, "The Flash")
+[{"The Flash", "Grant Gustin", 7.9}]
+
+# Or :ets.match to look by any other value
+iex(13)> :ets.match(:tv_shows, {:"$1", "Grant Gustin", :"$2"}) 
+[["The Flash", 7.9]]
+
+iex(15)> :ets.match(:tv_shows, {:"$2", "Grant Gustin", :"$1"})
+[[7.9, "The Flash"]]
+
+iex(31)> :ets.match(:tv_shows, {:"$1", "Grant Gustin", :_})  
+[["The Flash"]]
+
+# Using "$N" is to specify that we want to display that field in the N position
+# Using an underscore is to specify that we don't want that field in the result
+
+# It's important to note that the result returns a list: this happens because some
+# ets types (e.g. bag) can have multiple entries for a key
+
+
+```
