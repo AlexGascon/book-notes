@@ -4,11 +4,6 @@ public class Money {
     protected int amount;
     protected String currency;
 
-
-    Money times(int multiplier) {
-        return new Money(amount * multiplier, currency);
-    }
-
     Money(int amount, String currency) {
         this.amount = amount;
         this.currency = currency;
@@ -33,5 +28,9 @@ public class Money {
 
     public String toString() {
         return amount + " " + currency;
+    }
+
+    Money times(int multiplier) {
+        return new Money(amount * multiplier, currency);
     }
 }
