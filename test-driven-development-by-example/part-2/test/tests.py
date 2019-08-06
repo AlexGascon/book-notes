@@ -1,9 +1,12 @@
+from tdd.test_case import TestCase
 from tdd.was_run import WasRun
 
-def test_test_was_run():
-    test = WasRun("test_method")
-    test.run()
-    print(test.was_run)
 
-if __name__ == "__main__":
-    test_test_was_run()
+class TestCaseTest(TestCase):
+    def test_running(self):
+        test = WasRun("test_method")
+        assert(not test.was_run)
+        test.run()
+        assert(test.was_run)
+
+TestCaseTest("test_running").run()
