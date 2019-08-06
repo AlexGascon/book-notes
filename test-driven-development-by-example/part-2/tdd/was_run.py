@@ -4,3 +4,6 @@ class WasRun:
     
     def test_method(self):
         self.was_run = True
+
+    def run(self):
+        self.test_method()
