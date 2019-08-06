@@ -18,3 +18,10 @@ In xUnit, the tests execution is divided in three steps:
 In order to learn more about xUnit, we're going to create our own test framework. At the beginning it will be a bit strange, because of course we're going to use TDD, and therefore it means that we will be testing a test framework with our own test framework, but as we advance everything will start coming into place.
 
 Also, in this section we'll change the programming language from Java to Python, as its syntax makes a bit more simple to develop this project.
+
+## Running the tests ##
+In order to run the tests from the project, run the following command:
+
+```bash
+export PYTHONPATH=. && python test/tests.py
+```
