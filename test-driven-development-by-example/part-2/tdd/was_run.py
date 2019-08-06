@@ -4,11 +4,7 @@ from tdd.test_case import TestCase
 class WasRun(TestCase):
     def __init__(self, test_name):
         self.was_run = None
-        self.test_name = test_name
-
-    def run(self):
-       method = getattr(self, self.test_name)
-       method()
+        super().__init__(test_name)
 
     def test_method(self):
         self.was_run = True
