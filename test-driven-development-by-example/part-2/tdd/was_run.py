@@ -1,4 +1,7 @@
-class WasRun:
+from tdd.test_case import TestCase
+
+
+class WasRun(TestCase):
     def __init__(self, test_name):
         self.was_run = None
         self.test_name = test_name
