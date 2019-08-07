@@ -6,5 +6,8 @@ class WasRun(TestCase):
         self.was_run = None
         super().__init__(test_name)
 
+    def test_set_up(self):
+        self.was_set_up = True
+
     def test_method(self):
         self.was_run = True
