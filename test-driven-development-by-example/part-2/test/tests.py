@@ -6,6 +6,6 @@ class TestCaseTest(TestCase):
     def test_template_method(self):
         test = WasRun("test_method")
         test.run()
-        assert("set_up test_method " == test.log)
+        assert("set_up test_method tear_down " == test.log)
 
 TestCaseTest("test_template_method").run()
