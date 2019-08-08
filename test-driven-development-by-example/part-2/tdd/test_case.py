@@ -1,3 +1,6 @@
+from tdd.test_result import TestResult
+
+
 class TestCase:
     def __init__(self, test_name):
         self.test_name = test_name
@@ -13,3 +16,4 @@ class TestCase:
         method = getattr(self, self.test_name)
         method()
         self.tear_down()
+        return TestResult()
