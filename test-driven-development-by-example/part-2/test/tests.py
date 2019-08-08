@@ -27,4 +27,5 @@ class TestCaseTest(TestCase):
 
 print(TestCaseTest("test_template_method").run().summary())
 print(TestCaseTest("test_result").run().summary())
+print(TestCaseTest("test_failed_result").run().summary())
 print(TestCaseTest("test_failed_result_formatting").run().summary())
