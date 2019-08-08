@@ -1,5 +1,6 @@
 from tdd.test_case import TestCase
 from tdd.test_result import TestResult
+from tdd.test_suite import TestSuite
 from tdd.was_run import WasRun
 
 
@@ -36,3 +37,4 @@ print(TestCaseTest("test_template_method").run().summary())
 print(TestCaseTest("test_result").run().summary())
 print(TestCaseTest("test_failed_result").run().summary())
 print(TestCaseTest("test_failed_result_formatting").run().summary())
+print(TestCaseTest("test_suite").run().summary())
