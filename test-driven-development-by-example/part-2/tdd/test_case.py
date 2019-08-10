@@ -11,8 +11,7 @@ class TestCase:
     def tear_down(self):
         pass
 
-    def run(self):
-        result = TestResult()
+    def run(self, result):
         result.test_started()
 
         self.set_up()
@@ -24,5 +23,3 @@ class TestCase:
             result.test_failed()
 
         self.tear_down()
-        
-        return result
