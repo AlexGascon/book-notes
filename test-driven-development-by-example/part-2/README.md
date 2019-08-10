@@ -25,3 +25,6 @@ In order to run the tests from the project, run the following command:
 ```bash
 export PYTHONPATH=. && python test/tests.py
 ```
+
+## Conclusion ##
+The conclusion here is quite similar to the one we got from the first part of the book: is this a perfect Test Framework? Obviously not, but we achieved our goal: learning more about xUnit architecture. Besides, creating a test framework and then using it to test itself has been a pretty interesting experiment. Definitely, I cannot think of many projects that would have been better for our learning goal.
