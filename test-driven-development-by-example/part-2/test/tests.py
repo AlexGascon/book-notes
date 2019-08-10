@@ -7,17 +7,20 @@ from tdd.was_run import WasRun
 class TestCaseTest(TestCase):
     def test_template_method(self):
         test = WasRun("test_method")
-        test.run()
+        result = TestResult()
+        test.run(result)
         assert("set_up test_method tear_down " == test.log)
  
     def test_result(self):
         test = WasRun("test_method")
-        result = test.run()
+        result = TestResult()
+        test.run(result)
         assert("1 run, 0 failed" == result.summary())
 
     def test_failed_result(self):
         test = WasRun("test_broken_method")
-        result = test.run()
+        result = TestResult()
+        test.run(result)
         assert("1 run, 1 failed" == result.summary())
 
     def test_failed_result_formatting(self):
