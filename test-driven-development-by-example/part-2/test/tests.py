@@ -5,37 +5,35 @@ from tdd.was_run import WasRun
 
 
 class TestCaseTest(TestCase):
+    def set_up(self):
+        self.result = TestResult()
+
     def test_template_method(self):
         test = WasRun("test_method")
-        result = TestResult()
-        test.run(result)
+        test.run(self.result)
         assert("set_up test_method tear_down " == test.log)
  
     def test_result(self):
         test = WasRun("test_method")
-        result = TestResult()
-        test.run(result)
-        assert("1 run, 0 failed" == result.summary())
+        test.run(self.result)
+        assert("1 run, 0 failed" == self.result.summary())
 
     def test_failed_result(self):
         test = WasRun("test_broken_method")
-        result = TestResult()
-        test.run(result)
-        assert("1 run, 1 failed" == result.summary())
+        test.run(self.result)
+        assert("1 run, 1 failed" == self.result.summary())
 
     def test_failed_result_formatting(self):
-        result = TestResult()
-        result.test_started()
-        result.test_failed()
-        assert("1 run, 1 failed" == result.summary())
+        self.result.test_started()
+        self.result.test_failed()
+        assert("1 run, 1 failed" == self.result.summary())
 
     def test_suite(self):
         suite = TestSuite()
         suite.add(WasRun("test_method"))
         suite.add(WasRun("test_broken_method"))
-        result = TestResult()
-        suite.run(result)
-        assert("2 run, 1 failed" == result.summary())
+        suite.run(self.result)
+        assert("2 run, 1 failed" == self.result.summary())
 
 suite = TestSuite()
 suite.add(TestCaseTest("test_template_method"))
