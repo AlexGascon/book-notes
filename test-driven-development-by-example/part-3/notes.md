@@ -11,3 +11,6 @@ I won't document all of them (as it would require copying the book almost word b
 ## Red bar patterns ##
 * If you really don't know what to do (how to write that test, how to implement that feature, etc), take a break. Fatigue breaks your judgment, and you need to move away from it to keep being sharp
 
+## Testing patterns ##
+* **Child test**: When trying to test something and ending with a test that is too big, write a smaller test representing the broken version of the big test, make it pass, and then introduce the larger test case again
+
