@@ -14,3 +14,6 @@ I won't document all of them (as it would require copying the book almost word b
 ## Testing patterns ##
 * **Child test**: When trying to test something and ending with a test that is too big, write a smaller test representing the broken version of the big test, make it pass, and then introduce the larger test case again
 
+* **Broken test**: After finishing a programming session, if you're programming alone, leave your last test broken. That way, when you go back to the code, you know exactly what where you doing: implementing the feature with the broken test. This will let you avoid spending time trying to remember where you were, what you were trying to achieve, etc. *Note: do this only when you're working alone in your project. DON'T do this on a team project, as you will leave the environment broken for everyone else and that's very rude*
+
+
