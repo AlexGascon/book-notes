@@ -16,4 +16,7 @@ I won't document all of them (as it would require copying the book almost word b
 
 * **Broken test**: After finishing a programming session, if you're programming alone, leave your last test broken. That way, when you go back to the code, you know exactly what where you doing: implementing the feature with the broken test. This will let you avoid spending time trying to remember where you were, what you were trying to achieve, etc. *Note: do this only when you're working alone in your project. DON'T do this on a team project, as you will leave the environment broken for everyone else and that's very rude*
 
+## Green bar patterns ##
+* **Fake It 'til you make it):** Your first implementation to fix a broken test should be returning a constant to make the test pass. That way, you will know that the test can work, and that you only need to work on making the implementation work for your actual use case. Also, it helps psychologically: knowing that you are in a "green" state makes you feel better than being on a "red" state
 
+* **Triangulate:** Abstract only when you have two test cases that require the same logic. If you try to make your code more abstract but you only have one use case, maybe you are optimizing too soon.
