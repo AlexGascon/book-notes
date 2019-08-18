@@ -20,3 +20,23 @@ I won't document all of them (as it would require copying the book almost word b
 * **Fake It 'til you make it):** Your first implementation to fix a broken test should be returning a constant to make the test pass. That way, you will know that the test can work, and that you only need to work on making the implementation work for your actual use case. Also, it helps psychologically: knowing that you are in a "green" state makes you feel better than being on a "red" state
 
 * **Triangulate:** Abstract only when you have two test cases that require the same logic. If you try to make your code more abstract but you only have one use case, maybe you are optimizing too soon.
+
+## Refactoring ##
+* **Isolate change:** To change one part of a method or object, start by isolating that part (there are several ways to do this: Extract Method, Extract Object, Method Object... but that's out of the scope of this pattern). Think of the isolation as a surgery: you're getting surgery for a very specific purpose. Yes, maybe you could get more things fixed now that you're on it; but honestly, I'm glad that the doctor is focusing on just one thing.
+
+## Mastering TDD ##
+*Note: this entire chapter is really good, if you have access to the book is worth reading it entirely. But as I feel good duplicating all the chapter in this markdown file, I'm just going to highlight a few points. But seriously, all of it is really good, read it.*
+
+* **How do you know if you have good tests?**: (I'm keeping this title because it's the one that is specified on the book, but a much better title is "How your tests can tell you if your code has good design")
+	* Long setup code - If you have to prepare a lot of objects for your test to work, maybe your objects are too big and you need to split them
+	* Setup duplication - If you can't easily find a common place for common setup code, there are many objects too tightly intertwined
+
+* **How do you switch to TDD midstream?**: Start adding tests to the existing code, and from there start refactoring. However, adding tests to the entire codebase may be a process that lasts for a long period of time. Therefore, the best option is to delimit a scope of the things that is more important to refactor, and do the full cycle (add tests + refactor + keep working but now with TDD) on that scope. This means that if there is code that can be greatly refactored, but it's code that doesn't demand any change for the moment, just leave it as it is.
+
+* **How does TDD relate to eXtreme Programming practices?**:
+	* Pairing: The tests you right in TDD are a good conversation when pairing. Also, the fact that you start defining the interface that your code will have is good because you start by discussing the design with your pair.
+	* Work fresh: XP advises to work when you are fresh and sharp, and rest when not. If you feel that it's taking too much effort to write your tests or to remove duplication after getting them to green, take a break and come back later.
+	* Continuous integration: the more tests you have, the easier it will be to integrate
+	* Simple design: as you start with the bare minimum to make your tests pass, and then you only refactor to make more tests pass, you get the minimum design that matches all the features you expect.
+	* Refactoring: Pretty obvious - You refactor your implementation to get more and more tests to pass, and to remove duplication or "fakes" on it.
+	* Continuous delivery: related with Continuous integration - the easier to integrate, the easier to delivery
