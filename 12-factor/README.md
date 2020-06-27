@@ -36,6 +36,7 @@ Make your releases have a unique ID, to allow you to reference them
 ### 6. Processes
 
 ### 7. Port binding
+La aplicación debería ser totalmente independiente de lo que puedas poner por delante. Si necesitas un puerto web, expón tu uno, y si al final quieres poner un Apache por delante que sea quien llame a ese puerto, pues lo haces, pero que a la aplicación le de igual
 
 ### 8. Concurrency 
 
