@@ -90,3 +90,73 @@ Even founders of huge companies get personally affected by business moves. Somet
 > [When the Instagram deal was announced] That day, Zuckerberg had posted a picture of Beast (his dog) on Instagram. His first time sharing on the app in almost a year
 
 Small details
+
+## Chapter 4 - The summer in limbo
+
+:star: (to this chapter in general)
+
+> Antitrust law was not written for modern acquisitions like Instagram. A traditional monopoly was a company with such a hold on its industry that it harmed others by fixing prices or controlling a supply chain. Facebook and Instagram presented no obvious consumer harm because their products were free to use, as long as people were willing to give up their data to the network.
+
+> The regulators were shortsightedly looking at the current marketplace and ignoring what Facebook and Instagram had the potential to be in a few years or even months.
+
+Tech progressed faster than law. As a consequence, the commitee allowed which now is one of the clearest cases of monopoly in the tech industry. One of the clearest examples of why it's **critical** that politicians (and therefore, law) constantly keep up to date.
+
+Luckily enough, looks like things are changing. This tweet from @AOC a few months ago is the clearest explanation you can get:
+
+> When our legislative bodies aren’t sufficiently responsive to tech, then that means we don’t have the tools required to protect people. This is partially why companies know way more about you than you may even be aware of - bc it’s legal, and Congress is struggling to keep up.
+https://twitter.com/AOC/status/1288977153728622594
+
+The chapter has really interesting thoughts about the monopoly evaluation process. It's too much to include everything here, so I would really recommend everyone to read the entire chapter if you get the chance.
+
+## Chapter 5 - Move fast and break things
+
+> :star:
+> - This journey is only 1% finished
+> - The riskiest thing is to take no risks
+> - Done is better than perfect
+> - Move fast and break things
+
+> It would be easy to get complacent and think we've won every time we bring ourselves to a new level, but all that does is just decrease the chance we'll get to the next level after that
+
+Facebook philosophy. It's inspiring to see that, despite they are incredibly successful, they keep pushing for more.
+
+> :star: Facebook had learned that people would get mad about breaches of privacy and then forget about them because they actually enjoyed what they were seeing—after all, users were getting exactly what Facebook thought they wanted, based on their previous behavior. Usually, people calmed down. And if they didn’t stop being angry, Facebook could reverse its decisions or come up with a version of the product people weren’t as mad about. The riskiest thing is to take no risks.
+
+Probably the last thing you want to hear about a company that posseses gigabytes of data about every single one of us
+
+> At Facebook, the news feed was full of competing features. Every product manager working on every aspect of the social network—events, groups, friend requests, comments—wanted their team’s tool to be granted an opportunity for a red dot, or a push notification, so that they would get a fair shake at meeting their growth goals and getting a good performance review. The idea that one might not add a notification with a new feature was a foreign concept—Facebook championed growth at all costs.
+
+One of the consequences of office politics and personal interests being more important than customers for some of the people in charge.
+
+> Krieger and Systrom started to understand the strengths of their position: they could learn all of Facebook’s tricks, and then they could understand the pros and cons of those moves by looking at how Facebook’s own product had succeeded or failed. Then, hopefully, they could decide to take a different path if they thought it necessary.
+
+> Three Instagram values
+> - Community first
+> - Simplicity matters
+> - Inspire creativity
+
+## Chapter 6 - Domination
+
+> Systrom was competitive, but it was always very important to him to do things _the best way_. [...] Zuckerberg, on the other hand, was set on doing things _better than anyone else_. [...]
+> Companies become a reflection of their founders. Systrom had created a place won the internet where the most interesting people who were the best at what they did could be followed by others, praised and emulated. [...] Zuckerberg had created the largest network of humans ever.
+
+> [About the videos in the Instagram feed having a max length of 15-seconds] There was no Facebook-style optimization baked into that number of seconds. It was an artistic choice.
+
+> [About Snapchat, and why it succeeded vs Instagram at first] They made something less stressful and more fun, and much more appealing to young people. “People are living with this massive burden of managing a digital version of themselves,”
+
+> Snapchat’s appeal with teens was crucial. Teens, about to leave high school and enter the wider world, were quickly building networks that would serve as infrastructure for the rest of their lives. At that age, they were building new habits and amassing spending power without oversight from their parents, developing affinities for brands they’d have loyalty to for years. Facebook might have started with college students, but Zuckerberg knew it needed power among this younger cohort.
+
+> Once Facebook purchased the VPN company, they could look at all the traffic flowing through the service and extrapolate data from it.
+
+That moment when you use a VPN to keep your traffic secure, just to get all of it read by Facebook. Is that even legal?
+
+> :star: When White resigned for the Snapchat COO job, it rattled Systrom’s confidence. He had spent so many days brainstorming with her, traveling with her, planning the business model with her guidance. Accepting her into the executive role was akin to embracing and trusting Facebook. Now he was, in a sense, paralyzed with doubt about his own decision-making, specifically around who he had decided to trust. Most of the people White had hired for Instagram were former Facebookers. After her departure, Systrom stopped holding question-and-answer meetings with staff for a while. For a couple months, he started showing up to work later, and paused some of his hiring plans.
+
+Systrom had a great confident in one of his teammates, and losing her greatly affected him personally. Shows the importance of having close colleagues you can trust
+
+> [About Internet.org] Zuckerberg launched an initiative to add more people to the internet, all of whom could be potential future Facebook users.o
+
+Good reminder that even the things that Facebook does that seem nice, are probably just a way of getting more profit
+
+## Chapter 7 - The new celebrity
+
