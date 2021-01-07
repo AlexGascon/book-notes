@@ -13,6 +13,7 @@ At its heart, No Filter draws on unprecedented exclusive access—from the found
 - Notes are presented as a bullet list
 
 > Quotes are presented as a Markdown quote
+
 They may have some personal notes after them, like this. This is not part of the book, just my thoughts about the quote
 
 Consecutive quotes/notes don't have to be related at all, they may be pages apart
@@ -20,23 +21,26 @@ Consecutive quotes/notes don't have to be related at all, they may be pages apar
 :star: Personal favourites are marked with a star emoji
 
 
-### Introduction - Introduction to the ultimate influencer
+## Introduction - Introduction to the ultimate influencer
 > _Consider that millions of people and brands have more Instagram followers than the New York Times has subscribers. Marketing through these people, who are basically running personal media companies through tastemaking, storytelling, and entertaining, is now a multibillion-dollar industry_
 
 > :star: _By looking at the way commercial spaces, products, and even homes are designed, we can see Instagram's impact, in a way that we can't as easily see the impact of Facebook or Twitter. The San Francisco workspace I'm writing this book in, for example, has its library arranged not according to title or author, but cover color: the decision makes sense when prioritizing Instagram aesthetics over book discovery_
 
-### Chapter 1 - Project Codename
+## Chapter 1 - Project Codename
 > She worried Systrom would waste his potential if he gave everything up for somebody else's vision
 
 Systrom's mentor from the entrepeneurship program he was attending to at Stanford, about the possibility of him joining Facebook as an early employee (at that point it didn't even had photos; that was the project Systrom was going to lead). It's crazy how turning down such a huge opportunity (building photos support at Facebook) lead to an even bigger opportunity (founding Instagram)
 
 > A higher-quality tool wouldn't necessarily create better art. "You have to learn to love imperfection". [...] More important was the lesson that just because something is more technically complex doesn't mean it's better
 
-- When going back to USA Systrom joined Odeo (a tech startup) as an intern. His mentor was a recent hire called Jack Dorsey (who would later become the CEO of Twitter). It's funny how Kevin Systrom had a really close relationship with the founders of both Facebook and Twitter when the companies were still nothing.
+> When going back to USA Systrom joined Odeo (a tech startup) as an intern. His mentor was a recent hire called Jack Dorsey (who would later become the CEO of Twitter).
+
+It's funny how Kevin Systrom had a really close relationship with the founders of both Facebook and Twitter when the companies were still nothing.
 
 > The team at Odeo was launching a new status update product, called Twttr, pronounced "twitter", with Dorsey as its CEO
 
 > Master's degree in "symbolic systems" - the famous Stanford program for understanding the psychology of how humans interact with computers 
+
 Sounds super interesting. More info: https://symsys.stanford.edu/
 
 > Systrom thought of how scary it must have been for the team at Odeo to switch to building Twitter, but clearly that had been the right decision. What was their Twitter?
@@ -53,7 +57,9 @@ Sounds super interesting. More info: https://symsys.stanford.edu/
 
 > :star: Systrom wasn't as confident as he sounded. He had actually been nervous to meet Crowley, since Foursquare was the talk of the industry. Instagram's infrastructure was still struggling to support all the new users. He and Krieger weren't sleeping well. There were plenty of strong competitors. But pretending things were going more smoothly than they actually were was part of the job of being a startup CEO. Everyone needed to think you were on the right track. His posturing was perhaps analogous to the modern pressure Instagram would introduce - the pressure to post only the best photos, making life seem more perfect than it actually was.
 
-### Chapter 2 - The Chaos of Success
+Really important reminder: successful people also suffer from stress or uncertainty. They just work really hard to act like they don't.
+
+## Chapter 2 - The Chaos of Success
 > It was better to start with something minimalist, and then let priorities reveal themselves as users ran into trouble
 
 > :star: Krieger, who owned much less of Instagram than Systrom did (40% vs 10%) embraced the hierarchy. He didn't want Systrom's job, and Systrom didn't want his. That's why it worked
@@ -68,19 +74,19 @@ Kevin Systrom after Andreesen-Horowitz, one of their investors, invested in a ri
 
 About Bieber asking for money to use Instagram and Systrom's rejection. It's specially impressive because when Bieber joined the app, Instagram experienced his fastest growth rate ever and his activity had a huge effect on the community, to the point where most of the time Bieber posted a picture the servers went down because of the huge amount of traffic interacting with it (liking/commenting)
 
-### Chapter 3 - The surprise
+## Chapter 3 - The surprise
 > :star: He'd never done a deal this big and his nerves were getting to him
 
 Amin Zounfonoun, Facebook's deals director, when the Instagram deal was about to be closed and the price had been decided. I love this quote because you would usually think that a high-level executive is super confident in everything that he does and always has everything under control, but here we can see him worried and having a bad time because of the responsibility. **If even someone so clearly prepared suffers Imposter's Syndrome, how I'm not going to have it too?**
 
 > :star: "If we don't create the thing that kills Facebook, someone else will. The internet is not a friendly place. Things that don't stay relevant don't even get the luxury of leaving ruins. They disappear"
 
-One of the pages of the Facebook employee handbook, explaining Zuckerberg's paranoid leadership.
+One of the pages of the Facebook employee handbook, explaining Zuckerberg's "paranoid leadership" philosophy
 
 > [When he learned that Instagram had been sold to Facebook instead of Twitter] Jack Dorsey deleted the Instagram app and stopped posting altogether
 
 Even founders of huge companies get personally affected by business moves. Sometimes they seem to be immune to all that stuff, but things like this prove that's not the case at all. They are also humans after all.
 
-> [When the Instagram deal was announced] That day, Zuckerberg had postead a picture of Beast (his dog) on Instagram. His first time sharing on the app in almost a year
+> [When the Instagram deal was announced] That day, Zuckerberg had posted a picture of Beast (his dog) on Instagram. His first time sharing on the app in almost a year
 
 Small details
