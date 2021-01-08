@@ -160,3 +160,77 @@ Good reminder that even the things that Facebook does that seem nice, are probab
 
 ## Chapter 7 - The new celebrity
 
+> :star: Hilton had money, so in moments they really needed to control her message, they would use it. Moore would pay a paparazzo to wear a green scarf so Hilton would know exactly whose lens to look into when she stepped out of her house, out of a club, or, at one point, out of jail. Then Moore would anonymously broker a deal to sell the picture to a celebrity news site. “Then the publication would come back to us and ask for a comment—and the whole time they had no clue we were behind it,” Moore explained. “The paparazzi was essentially Paris’s daily Instagram post, and that reality show was the weekly Instagram story.”
+
+About how (in the early 2000s, before Instagram) Paris Hilton and her agent controlled what bad photos and stories were published about her, by creating those themselves. Really interesting to see that the best way to control a bad narrative is to create it yourself.
+
+> The lack of disclosure made the posts feel less like ads and more like helpful tips—and U.S. regulators were slow to catch on to the practice.
+
+> The effect would depress some of the early Instagram employees, who had wanted so badly to build a community centered around the appreciation of art and creativity, and instead felt that they had built a mall.
+
+About the start of branded content, and how 1) regulators were again behind the tech world 2) it was perceived inside Instagram
+
+> :star: People in various cities came up to her, crying, telling her they were struggling with depression or anxiety and that Tuna was bringing them joy. “That was the first time that I realized how much weight these posts had for people,”
+
+Courtney Dasher, owner of the account [@tunameltsmyheart](https://www.instagram.com/tunameltsmyheart/) about the effect its photos had in people. For reference, the account posts cute photos about Tuna, an overbite chihuahua 
+
+I found it a great example of how tech has the power to improve the life of someone thousands of miles away, even by doing something so innocent as allowing you to post cute photos of your dog
+
+![](./tuna.png)
+
+
+> “We were used to going through a very long laborious process of organizing shoots and productions on those shoots, and a classic media buying program working with magazines,” Bailey explained. “Six or nine months later you finally saw that image in a magazine. With Instagram, the fact that we could hire our own photographers, our own team, and within minutes it could be online and we would have dialogue directly with people who were interested in our brand, was just incredible.”
+
+Christopher Bailey, Burberry's Chief Creative Officer, about their switch from advertising on printed magazines to running an Instagram account. He was the one proposing that strategy, and its success was one of the reasons why a few months later he was promoted to CEO
+
+> Since Facebook had been the first social media company to go public, the company trained Wall Street on the appropriate valuation model—the one that benefited Facebook most, that every single move it made was focused on driving. Facebook’s strategy wasn’t about buzz. It was all about growth.
+
+> Systrom told employees they were now dealing with not just one user community, but several, and they couldn’t be good at reaching all of them. So they'd need to choose
+
+The importance of focus
+
+> David Swain, the Instagram communications chief, had two things he liked to say about the media strategy. One was “extend the honeymoon”: keep people feeling good about Instagram for as long as possible in the wake of the Facebook marriage. The other was “don’t fuck it up”: avoid losing user trust, the way Facebook had.
+
+> [Additional Facebook apps like Mentions or Paper] they were technological solutions to a problem Instagram was solving with human interaction and curation.
+
+> Instagram’s power lay not in what was posted there, but in how those posts made people feel.
+
+## Chapter 8 - The pursuit of the Insta-worthy
+
+> :star: “Facebook buying Instagram was like putting it in a microwave. In a microwave, the food gets hotter faster, but you can easily ruin the dish.”
+> —FORMER INSTAGRAM EXECUTIVE
+
+
+> [Kevin Systrom] He wanted to recruit the best talent, but didn’t want them to bring over Facebook’s grow-at-all-costs values.
+
+> Unlike Facebook, where employees looked for technical solutions that reached the most users, Instagram solved problems in a way that was intimate, creative, and relationship-based, sometimes even at the individual level if the user was important enough to warrant it.
+
+> :star: Facebook employees had seen their stock options soar in value from rapid growth that came, in part, from not judging their users’ choices. They would complain that the Instagram team had the luxury of making different decisions, taking Facebook’s resources for granted with an attitude of superiority.
+
+_Standing on the shoulders of giants_
+
+> :star: Barnieh watched new cafes all around the world adopt aesthetics that were popular on Instagram [...] In their quest to look modern, he thought they all ended up looking the same, the way airports and corporate offices all look the same. The public was coming to a consensus about what kinds of designs were Instagrammable.
+
+> They would promote what they felt was their standard fare, like embroidery artists and funny-looking pets. And they would avoid posting anything that perpetuated some of the new unhealthy trends on the app. They would never post a photo of anybody near a cliff, no matter how beautiful, because they knew that gaining a following on Instagram was becoming so desirable that people were risking their lives for perfect shots. They would avoid promoting yoga and fitness accounts, so that they wouldn’t seem to approve of a certain body type and make their users feel inadequate—or worse, aroused. They would also avoid promoting accounts that showed off expensive experiences, like ones from travel bloggers. But sometimes they wrestled with what to celebrate and what to ignore. Should they talk publicly about the #promposal trend, for instance? Teens were developing grand Instagram-worthy gestures to ask each other to the school dance. Was that good for Instagram or perpetuating a pressured culture? And how did they feel about meme accounts? These were wildly popular accounts that weren’t about photography at all, but were mostly screenshots of jokes from Tumblr and Twitter. Some Instagram employees were uncomfortable with memes, but also with selfies, bikini shots, and other behaviors that had become mainstream on Instagram, against their artistic sensibilities.
+
+About the Community team at Instagram, and how they decided what to publicize on the [@instagram](https://www.instagram.com/instagram/) account. The publications were hand-picked, which was easy at first, but as they grew they realised that with great power comes great responsibility
+
+> Liz Perle [...]
+
+Can't copy the entire section here, but there's a really interesting story about how she successfully combined gut and data
+
+> The strategy was a success. Young people were obsessed with Instagram. In 2015, 50 percent of teens in the U.S. were on the app.
+
+And that's the result of that story. It didn't happen by chance, it was an incredibly well planned strategy
+
+> "You become a product of what everyone else wants, and not who you’re supposed to be."
+
+Janelle Bull, a therapist at Anchor Psychology in Silicon Valley, explaining how Instagram was starting to affect the everyday life of regular people
+
+> Anyone losing an argument with Facebook had a last resort: running a test to see what the data showed. When Horsley tested whether Facebook would lose money by increasing the quality requirements, he miraculously found that the opposite was true. Advertisers took their ads more seriously, and spent more. The change was approved.
+
+About Hunter Horsley, an employee on the team that worked on the initial version of Instagram ads, who was having a discussion with Facebook employees about the appropriate ad size. Initially the Facebook employees rejected their proposal, but he used data to prove it was the right one. Great example of the importance of being really data-driven
+
+> [Systrom] He thought that if they changed anything, it would have to be because it made Instagram better, not because it helped Facebook hit a growth metric.
+
+## Chapter 9 - The Snapchat problem
