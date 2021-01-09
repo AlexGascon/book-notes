@@ -33,3 +33,33 @@ Jumping around:
 - `H`: Move cursor to the first (**highest**) line in the current window
 - `L`: Same but to the last (**lowest**) line
 - `M`: Same with the **middle** line
+
+Searching:
+- `*` / `#`: Searches the current word forward/backwards (exact match)
+- `g*`/ `g#`: Searches the current word forward/backwards (without exact match, e.g. if the word is `roll` it will also match `scroll`)
+- `Ctrl-o`: Returns to the previous position after searching
+- `/ + hit Enter`: Repeats the last search
+
+### File manager (netrw)
+`netrw` is a built-in Vim plugin that allows to easily navigate files and directories. Most of the command contain `ex`, which is a shortcut of **ex**plore
+
+- `:Ex`: Open current directory in the current window
+- `:Sex`: Open with a horizontal split
+- `:Vex`: Open with a vertical split
+- `:Tex`: Open in a new tab
+- `:Lex`: Open in a vertical split  to the left. Default opens to the right
+
+You can add a directory to all those commands to make them open that directory, like `:Ex /home/alex/books/` or `:Vex /home/alex/books`
+
+- `:40vs +Ex`: open a vertical split with a width of 40 columns
+
+In a `netrw` window, press `i` to cycle through different views: **thin, long, wide and tree**
+
+Operations with the files:
+- `<Enter>`: Opens the file/directory
+- `D`: Deletes. If you visually select multiple files, you can delete all of them at the same time
+- `X`: Executes
+- `R`: Renames
+- `%`: Creates a new file
+
+Set netrw split width: use the `netrw_winsize` option. For example, this will set it to a 20% of the Vim window: `let g:netrw_winsize = 20`
