@@ -4,6 +4,8 @@ Repository containing the notes of the books I've been reading lately. Good for 
 # Books
 
 - [Arsene Wenger: My Life in Red and White](https://github.com/AlexGascon/book-notes/tree/master/arsene-wenger-my-life-in-red-and-white)
+- [Ego is the enemy](https://github.com/AlexGascon/book-notes/tree/master/ego-is-the-enemy)
+- [Letters to a Young Athlete, by Chris Bosh](https://github.com/AlexGascon/book-notes/tree/master/letters-to-a-young-athlete)
 - [No Filter: the inside story of Instagram](https://github.com/AlexGascon/book-notes/tree/master/no-filter)
 - [The art of thinking clearly](https://github.com/AlexGascon/book-notes/tree/master/the-art-of-thinking-clearly)
 
